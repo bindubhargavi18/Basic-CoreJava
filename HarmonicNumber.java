@@ -9,8 +9,7 @@ public class HarmonicNumber
 		Scanner s=new Scanner(System.in);
 		number=s.nextInt();
 		s.close();
-		System.out.println(+number+"th harmonic number is:" +harmonicNumber(number));
-		
+		System.out.println(+number+"th harmonic number is:" +harmonicNumber(number));		
 	}
 	static float harmonicNumber(int number)
 	{
@@ -20,6 +19,5 @@ public class HarmonicNumber
 			harmonic+=(float)1/i;
 		}
 		return harmonic;
-
-}
+	}
 }
