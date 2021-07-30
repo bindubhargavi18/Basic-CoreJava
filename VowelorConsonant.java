@@ -4,23 +4,23 @@ public class VowelorConsonant
 {
 	public static void main(String[] args) 
 	{
-		boolean vowel=false;;
+		boolean vowel = false;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter alphabet : ");
 		char alphabet=s.next().charAt(0); 
 		s.close();
 		switch(alphabet)
 		{
-		   case 'a' :
-		   case 'e' :
-	       case 'i' :
-		   case 'o' :
-		   case 'u' :
-		   case 'A' :
-		   case 'E' :
-		   case 'I' :
-		   case 'O' :
-		   case 'U' : vowel = true;
+			case 'a' :    
+			case 'e' :
+			case 'i' :
+			case 'o' :
+			case 'u' :
+			case 'A' :
+			case 'E' :
+			case 'I' :
+			case 'O' :
+			case 'U' : vowel = true;
 		}
 		if(vowel == true) 
 		   System.out.println(alphabet+" is  a Vowel");
